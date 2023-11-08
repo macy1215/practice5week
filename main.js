@@ -77,3 +77,4 @@ let data = [
             </li>`
  });
    list.innerHTML=str;
+   console.log('hello world')
