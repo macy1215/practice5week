@@ -1,0 +1,14 @@
+@import "../../node_modules/bootstrap/scss/functions";
+//變數
+@import './utils/variables';
+@import './utils/utilities-custom';
+//等同於把所有 BS5的 sass通通載進來
+@import "../../node_modules/bootstrap";
+
+@import './base.scss';
+
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+@import './pages/index.scss';
+
